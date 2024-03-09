@@ -13,9 +13,8 @@ def circumference_circle(radius):
     circumference = 2*pi*radius
     return circumference
 
-
 def main():
-    # Ask the user for radius(radius)
+    # Ask the user for radius
     radius = float(input("Enter the value of a radius of a circle: "))
 
     # Find the circumference of a circle
@@ -23,7 +22,6 @@ def main():
 
     # Show the circumference of a circle
     print(f"The circumference of a circle with radius {radius} is {circumference:.2f}")
-
 
 if __name__ == "__main__":
     main()
