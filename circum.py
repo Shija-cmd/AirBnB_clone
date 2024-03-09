@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def circumference_circle(r):
+def circumference_circle(radius):
     """
     Calculate the circumference of a circle.
 
@@ -9,20 +9,20 @@ def circumference_circle(r):
     Returns:
     float: The circumference of circle.
     """
-    p = 3.14
-    circumference = 2*p*r
+    pi = 3.14
+    circumference = 2*pi*radius
     return circumference
 
 
 def main():
-    # Ask the user for radius(r)
-    r = float(input("Enter the value of a radius (r) of a circle: "))
+    # Ask the user for radius(radius)
+    radius = float(input("Enter the value of a radius of a circle: "))
 
     # Find the circumference of a circle
-    circumference = circumference_circle(r)
+    circumference = circumference_circle(radius)
 
     # Show the circumference of a circle
-    print(f"The circumference of a circle with radius {r} is {circumference:.2f}")
+    print(f"The circumference of a circle with radius {radius} is {circumference:.2f}")
 
 
 if __name__ == "__main__":
